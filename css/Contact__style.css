@@ -1,0 +1,174 @@
+html {
+  font-size: 16px;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-weight: normal;
+  font-style: normal;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+abbr,
+acronym {
+  border: 0;
+}
+
+@font-face {
+  font-family: Myriab-Pro-Semibold;
+  src: url(../fonts/Mariab-Pro-Semibold.otf);
+}
+
+@font-face {
+  font-family: Arhive;
+  src: url(../fonts/Arhive.otf);
+}
+
+.wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrap {
+  max-width: 1230px;
+  width: 100%;
+}
+
+.container-contact-us {
+  margin-left: 15%;
+}
+
+@media screen and (max-width: 426px) {
+  .container-contact-us {
+    margin: 3%;
+  }
+}
+
+.contact-us-pretext {
+  margin-bottom: 2%;
+}
+
+.contact-us-pretext p {
+  font-weight: bold;
+  font-size: 1.75rem;
+  font-family: Myriab-Pro-Semibold;
+}
+
+@media screen and (max-width: 426px) {
+  .contact-us-pretext p {
+    font-size: 1.25rem;
+  }
+}
+
+.contact-us-pretext p:before {
+  content: url(../img/homik.png);
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 426px) {
+  .contact-us-pretext p:before {
+    font-size: 1.25rem;
+  }
+}
+
+.contact-us-text {
+  max-width: 453px;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 426px) {
+  .contact-us-text {
+    max-width: 310px;
+  }
+}
+
+.contact-us-icons {
+  margin-bottom: 5%;
+}
+
+.contact-us-icons img {
+  margin-right: 5px;
+}
